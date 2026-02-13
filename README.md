@@ -16,7 +16,9 @@ This project demonstrates core Object-Oriented Programming (OOP) concepts in Jav
 
 All assignments are implemented within a single Java project using proper package organization.
 
-📂 Project Structure
+## 📂 Project Structure
+
+```text
 src/
  ├─ assignment4_shapes/
  │   ├─ Shape.java
@@ -35,6 +37,7 @@ src/
  │   ├─ ContractEmployee.java
  │
  └─ AssignmentMain.java
+
 
 🔷 Assignment 4 — Geometric Shape Hierarchy
 🧩 (Abstract Classes)
