@@ -1,39 +1,51 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&text=Java%20OOP%20Assignments&fontAlign=50&fontAlignY=35&desc=Amandeep%20%7C%20Java%20Developer%20in%20Progress&descAlign=50&descAlignY=55&animation=twinkling" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=250&section=header&text=Java%20OOP%20Assignments&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Amandeep%20Kumar%20|%20Java%20Developer%20in%20Progress&descAlignY=55&descAlign=50"/>
 </p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java">
+  <img src="https://img.shields.io/badge/Java-Version%2021-orange?style=for-the-badge">
+  <img src="https://img.shields.io/badge/OOP-Concepts-success?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge">
+</p>
+
+---
+
 ## 🐍 Contribution Graph
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/amanDeep080/Java-Advanced-OOPs-Assignment/output/github-contribution-grid-snake-dark.svg" />
 </p>
 
+---
+
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=amanDeep080&show_icons=true&hide_title=true" />
+  <img src="https://github-readme-stats.vercel.app/api?username=amanDeep080&show_icons=true&hide_title=true&theme=tokyonight" />
   <br/>
-  <img src="https://streak-stats.demolab.com?user=amanDeep080" />
+  <img src="https://streak-stats.demolab.com?user=amanDeep080&theme=tokyonight" />
 </p>
 
-🚀 Java Advanced OOP Assignments
-<p align="center"> <img src="https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java"> <img src="https://img.shields.io/badge/Java-Version%2021-orange?style=for-the-badge"> <img src="https://img.shields.io/badge/OOP-Concepts-success?style=for-the-badge"> <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge"> </p>
-📌 Project Overview
+---
 
-This project demonstrates core Object-Oriented Programming (OOP) concepts in Java through three structured assignments:
+# 🚀 Project Overview
 
-🔹 Abstract Classes
+This project demonstrates core **Object-Oriented Programming (OOP)** principles in Java through three structured assignments.
 
-🔹 Inheritance & Method Overriding
+### 🔥 Concepts Covered
+- ✔ Abstract Classes  
+- ✔ Inheritance  
+- ✔ Method Overriding  
+- ✔ Interfaces  
+- ✔ Polymorphism  
+- ✔ Encapsulation  
 
-🔹 Interfaces
+All assignments are implemented within a single Java project using clean package organization.
 
-🔹 Polymorphism
+---
 
-🔹 Encapsulation
-
-All assignments are implemented within a single Java project using proper package organization.
-
-## 📂 Project Structure
+# 📂 Project Structure
 
 ```text
 src/
@@ -41,77 +53,59 @@ src/
  │   ├─ Shape.java
  │   ├─ Circle.java
  │   ├─ Rectangle.java
- │   ├─ Triangle.java
+ │   └─ Triangle.java
  │
  ├─ assignment5_vehicles/
  │   ├─ Vehicle.java
  │   ├─ Car.java
- │   ├─ Bike.java
+ │   └─ Bike.java
  │
  ├─ assignment6_employees/
  │   ├─ Payable.java
  │   ├─ SalariedEmployee.java
- │   ├─ ContractEmployee.java
+ │   └─ ContractEmployee.java
  │
  └─ AssignmentMain.java
-
-
 🔷 Assignment 4 — Geometric Shape Hierarchy
-🧩 (Abstract Classes)
+🧩 Abstract Classes
 🎯 Objective
 
-Create a common blueprint (Shape) for geometric shapes ensuring each can calculate:
+Create a common blueprint (Shape) ensuring each shape calculates:
 
-Area
+📐 Area
 
-Perimeter
+📏 Perimeter
 
 🛠 Implementation
 
-Shape → Abstract class
+Shape → Abstract Class
 
 Circle, Rectangle, Triangle → Concrete subclasses
 
-Each overrides:
-
-double area();
-double perimeter();
-
-💡 Concepts Demonstrated
-
-✔ Abstraction
-✔ Method Overriding
-✔ Runtime Polymorphism
+public abstract class Shape {
+    public abstract double area();
+    public abstract double perimeter();
+}
 
 🔷 Assignment 5 — Vehicle Start Behavior
-🚗 (Inheritance & Overriding)
+🚗 Inheritance & Method Overriding
 🎯 Objective
 
-Demonstrate inheritance and customize behavior using method overriding.
-
-🛠 Implementation
+Reuse base behavior and override specific functionality.
 
 Vehicle → Base class
 
 Car, Bike → Subclasses
 
-Override:
+Method overridden:
 
 void start();
 
-💡 Concepts Demonstrated
-
-✔ Inheritance
-✔ Upcasting
-✔ Runtime Polymorphism
-
 🔷 Assignment 6 — Employee Compensation
-💼 (Interfaces)
+💼 Interfaces
 🎯 Objective
 
-Use an interface to define a payment contract.
-
-🛠 Implementation
+Define a contract for payment calculation.
 
 Payable → Interface
 
@@ -119,39 +113,23 @@ SalariedEmployee
 
 ContractEmployee
 
-Both implement:
-
 double calculatePay();
 
-💡 Concepts Demonstrated
-
-✔ Interface
-✔ Abstraction
-✔ Implementation
-✔ Polymorphism
-
 ▶️ How to Run
-🔹 Using IDE (Recommended)
+💻 Using IDE
 
-Open project in Eclipse / IntelliJ / VS Code
+Open in Eclipse / IntelliJ
 
 Run AssignmentMain.java
 
-🔹 Using Command Line
-
-Compile:
-
+🖥 Using Command Line
 javac AssignmentMain.java assignment4_shapes/*.java assignment5_vehicles/*.java assignment6_employees/*.java
-
-
-Run:
 
 java AssignmentMain
 
-🖥 Sample Output
 === Assignment 4: Shapes ===
-Circle Area: 78.53981633974483
-Circle Perimeter: 31.41592653589793
+Circle Area: 78.53
+Circle Perimeter: 31.41
 Rectangle Area: 24.0
 Rectangle Perimeter: 20.0
 Triangle Area: 6.0
@@ -166,12 +144,13 @@ Bike engine starts with a kick or button.
 Salaried Monthly Pay: 50000.0
 Contract Total Pay: 20000.0
 
-🧠 OOP Concepts Summary
-Concept	Implementation
+
+🧠 OOP Principles Demonstrated
+Principle	Implementation
 Abstraction	Shape, Payable
-Inheritance	Car & Bike extend Vehicle
+Inheritance	Car & Bike
 Polymorphism	Overridden methods
-Encapsulation	Private fields + getters
+Encapsulation	Private fields
 Interface	Payment contract
 👨‍💻 Author
 
