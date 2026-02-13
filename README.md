@@ -1,6 +1,9 @@
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&height=220&text=Java%20Advanced%20OOP%20Assignments&fontAlign=50&fontAlignY=35&desc=Amandeep%20Kumar%20%7C%20Java%20Developer%20in%20Progress&descAlign=50&descAlignY=55&animation=twinkling" />
 </p>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=220&text=Java%20Advanced%20OOP%20Assignments&fontColor=ffffff&fontAlign=50&fontAlignY=35&desc=Amandeep%20Kumar%20%7C%20OOP%20%7C%20Java%2021&descAlign=50&descAlignY=55&animation=twinkling" />
+</p>
 
 🚀 Java Advanced OOP Assignments
 <p align="center"> <img src="https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java"> <img src="https://img.shields.io/badge/Java-Version%2021-orange?style=for-the-badge"> <img src="https://img.shields.io/badge/OOP-Concepts-success?style=for-the-badge"> <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge"> </p>
