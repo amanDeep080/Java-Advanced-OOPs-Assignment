@@ -1,6 +1,11 @@
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&height=220&text=Java%20OOP%20Assignments&fontAlign=50&fontAlignY=35&desc=Amandeep%20%7C%20Java%20Developer%20in%20Progress&descAlign=50&descAlignY=55&animation=twinkling" />
 </p>
+## 🐍 Contribution Graph
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/amanDeep080/Java-Advanced-OOPs-Assignment/output/github-contribution-grid-snake-dark.svg" />
+</p>
 
 
 🚀 Java Advanced OOP Assignments
