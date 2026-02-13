@@ -7,6 +7,13 @@
   <img src="https://raw.githubusercontent.com/amanDeep080/Java-Advanced-OOPs-Assignment/output/github-contribution-grid-snake-dark.svg" />
 </p>
 
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=amanDeep080&show_icons=true&hide_title=true" />
+  <br/>
+  <img src="https://streak-stats.demolab.com?user=amanDeep080" />
+</p>
 
 🚀 Java Advanced OOP Assignments
 <p align="center"> <img src="https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java"> <img src="https://img.shields.io/badge/Java-Version%2021-orange?style=for-the-badge"> <img src="https://img.shields.io/badge/OOP-Concepts-success?style=for-the-badge"> <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge"> </p>
